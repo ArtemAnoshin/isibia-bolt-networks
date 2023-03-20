@@ -1,0 +1,29 @@
+{
+  "name": "isibia/isibia-bolt-networks",
+  "description": "Add links to social networks.",
+  "type": "bolt-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artem Anoshin",
+      "email": "artem.anoshin@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "twig/twig": "^2.12 | ^3.0"
+  },
+  "require-dev": {
+    "bolt/core": "^5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Isibia\\BoltNetworks\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "extra": {
+    "entrypoint": "Isibia\\BoltNetworks\\Extension"
+  }
+}
