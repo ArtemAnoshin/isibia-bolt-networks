@@ -21,7 +21,7 @@
       "Isibia\\BoltNetworks\\": "src/"
     }
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "prefer-stable": true,
   "extra": {
     "entrypoint": "Isibia\\BoltNetworks\\Extension"
